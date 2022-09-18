@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+  padding-bottom: 20px;
+  transition: transform 450ms;
+  padding: 20px 40px 20px 20px;
+}
+@media screen and (max-width: 467px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.imgCont {
+  display: flex;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.image {
+  border-radius: 22px;
+  height: 300px;
+  width: 200px;
+}
+
+.mid {
+  padding-left: 20px;
+  flex: 0.2;
+  font-size: 1rem;
+}
+.description {
+  flex: 0.7;
+}
+.container:hover {
+  transform: scale(1.02);
+}
+.last {
+  margin-right: 20px;
+}
